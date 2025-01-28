@@ -5,4 +5,5 @@ RUN pip install pandas
 WORKDIR /app
 COPY pipeline.py pipeline.py
 
+#Create an Entrypoint
 ENTRYPOINT [ "python","pipeline.py" ]
